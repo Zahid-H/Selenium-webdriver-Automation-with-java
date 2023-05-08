@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class googleSearchAutomation {
     public static void main(String[] args) throws InterruptedException {
-        // System.out.println("Wellcome to Java selenium Atomation");
+
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.google.com");
